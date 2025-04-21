@@ -1,56 +1,80 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Name - Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name | IT Portfolio</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
     body {
-      font-family: sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
-      background: #fdfdfd;
-      color: #222;
+      background-color: #ffffff;
+      color: #333;
+      line-height: 1.6;
     }
     header {
+      background-color: #f5f5f5;
       padding: 2rem;
       text-align: center;
-      background: #fafafa;
+      border-bottom: 1px solid #ddd;
     }
     header h1 {
       margin: 0;
       font-size: 2rem;
     }
+    header p {
+      color: #777;
+      margin-top: 0.5rem;
+    }
     nav {
+      background-color: #007acc;
+      padding: 1rem;
       text-align: center;
-      margin-bottom: 2rem;
     }
     nav a {
+      color: #fff;
       margin: 0 1rem;
       text-decoration: none;
-      color: #0077cc;
+      font-weight: bold;
     }
-    section {
-      max-width: 700px;
-      margin: 0 auto 4rem;
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
       padding: 0 1rem;
     }
+    section {
+      margin-bottom: 2.5rem;
+    }
     h2 {
-      border-bottom: 1px solid #eee;
+      color: #007acc;
+      border-bottom: 2px solid #007acc;
       padding-bottom: 0.5rem;
     }
     footer {
       text-align: center;
       padding: 2rem;
-      background: #fafafa;
       font-size: 0.9rem;
+      background-color: #f9f9f9;
+      color: #666;
+      border-top: 1px solid #ddd;
+    }
+    ul {
+      padding-left: 1.5rem;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>Your Name</h1>
-    <p>IT Support Specialist | Freelancer</p>
+    <p>IT Support Specialist | Freelancer | Problem Solver</p>
   </header>
 
   <nav>
@@ -60,38 +84,35 @@
     <a href="#contact">Contact</a>
   </nav>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I'm an IT Support Specialist with nearly 2 years of hands-on experience solving
-      technical issues and improving system performance. I’m passionate about using
-      technology to streamline operations and help people work more efficiently.
-    </p>
-    <p>
-      I'm currently seeking new opportunities — whether it's a full-time role or freelance
-      work — where I can continue to grow, contribute, and create simple, effective tech solutions.
-    </p>
-  </section>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I'm an IT Support Specialist with nearly 2 years of hands-on experience solving technical issues and improving system performance.
+        I'm passionate about using technology to streamline operations and help people work more efficiently.
+        Currently, I’m open to both full-time and freelance opportunities where I can contribute, grow, and solve real-world tech problems.
+      </p>
+    </section>
 
-  <section id="resume">
-    <h2>Resume</h2>
-    <p>You can <a href="YOUR_RESUME_LINK" target="_blank">view or download my resume here</a>.</p>
-  </section>
+    <section id="resume">
+      <h2>Resume</h2>
+      <p><a href="https://drive.google.com/your-resume-link" target="_blank">Click here to view my resume</a></p>
+    </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li><strong>Project 1:</strong> Brief description and link</li>
-      <li><strong>Project 2:</strong> Brief description and link</li>
-      <!-- Add more as needed -->
-    </ul>
-  </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Project A:</strong> Brief description or <a href="#">link</a></li>
+        <li><strong>Project B:</strong> Brief description or <a href="#">link</a></li>
+      </ul>
+    </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email me at <a href="mailto:youremail@example.com">youremail@example.com</a></p>
-    <!-- You can also add LinkedIn, GitHub, etc. -->
-  </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/yourname" target="_blank">linkedin.com/in/yourname</a></p>
+    </section>
+  </main>
 
   <footer>
     &copy; 2025 Your Name. All rights reserved.
